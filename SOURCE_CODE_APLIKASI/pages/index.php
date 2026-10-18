@@ -7,19 +7,20 @@ ob_start();
 include 'cek.php';
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon.png">
+    <link rel="apple-touch-icon" href="../apple-icon.png">
+    <link rel="manifest" href="../manifest.json">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="FokusKonten">>
-    <link rel="icon" type="image/png" href="../dist/gambar/favico.ico"/>
-    <title>BarberCashier - FokusKonten</title>
+    <meta name="description" content="BarberCashier - Software Kasir Barbershop Pangkas Rambut Dan Komisi Capster">
+    <meta name="author" content="FokusKonten">
+    <title>BarberCashier - Kasir Barbershop & Komisi Capster</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../dist/bootstrap/css/bootstrap.css" rel="stylesheet">

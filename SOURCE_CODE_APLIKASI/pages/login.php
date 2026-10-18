@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon.png">
+    <link rel="apple-touch-icon" href="../apple-icon.png">
+    <link rel="manifest" href="../manifest.json">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="FokusKonten">>
+    <meta name="description" content="BarberCashier - Software Kasir Barbershop Pangkas Rambut Dan Komisi Capster">
+    <meta name="author" content="FokusKonten">
 
-    <title>BarberCashier - FokusKonten</title>
+    <title>BarberCashier - Kasir Barbershop & Komisi Capster</title>
 
     <!-- Bootstrap Core CSS -->
    <link href="../dist/bootstrap/css/bootstrap.css" rel="stylesheet"> 
@@ -92,10 +94,10 @@ body {
                         <form role="form" method="post" action="proseslogin.php" name="postform">
                             <fieldset>
                                 <div class="form-group mb-3">
-                                    <input class="form-control" placeholder="Nama Pengguna (Username)" name="username" type="text" value="admin" autofocus style="border-radius: 8px; height: 42px;">
+                                    <input class="form-control" placeholder="Nama Pengguna (Username)" name="username" type="text" required autocomplete="username" autofocus style="border-radius: 8px; height: 42px;">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input class="form-control" placeholder="Kata Sandi (Password)" name="password" type="password" value="admin" style="border-radius: 8px; height: 42px;">
+                                    <input class="form-control" placeholder="Kata Sandi (Password)" name="password" type="password" required autocomplete="current-password" style="border-radius: 8px; height: 42px;">
                                 </div>
                                 <div class="form-group mb-4">
                                     <select class="form-control" name="shift" required="required" style="border-radius: 8px; height: 42px;">
